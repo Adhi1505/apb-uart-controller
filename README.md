@@ -17,6 +17,12 @@ The design integrates a UART peripheral into an SoC environment using the AMBA A
 - Waveform-based debugging using ModelSim
 - Protocol timing validated through simulation
 
+- ## Synthesis
+- The RTL design was synthesized using Intel Quartus Prime to verify hardware feasibility.
+- Synthesis outputs were reviewed to ensure the design is free of latches and is fully synthesizable.
+- No board-level deployment or timing optimization was performed.
+
+
 ## Tools Used
 - Verilog HDL
 - ModelSim
