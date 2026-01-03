@@ -1,4 +1,4 @@
-module apb_uart (
+    module apb_uart (
     input  wire        pclk,
     input  wire        presetn,
     input  wire [31:0] paddr,
@@ -163,3 +163,4 @@ module apb_uart (
     );
 
 endmodule
+
